@@ -39,6 +39,9 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.oplus.hardware.cammidasservice-V1-ndk',
         'vendor.oplus.hardware.sendextcamcmd-V1-ndk',
     ): lib_fixup_vendor_suffix,
+    (
+        'vendor.oplus.hardware.touch-V2-ndk',
+    ): lib_fixup_odm_suffix,
 }
 
 blob_fixups: blob_fixups_user_type = {
