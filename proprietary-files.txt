@@ -1280,13 +1280,6 @@ vendor/etc/ltm_config_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
 my_bigball/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml|f2c044ab8db11f299b106375dbd06feef4ff84e0
 my_bigball/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|b65b43d4b2e892c5107d9d248b1d6d640fa0f04c
 
-# IR
-odm/bin/hw/android.hardware.ir-service
-odm/etc/init/android.hardware.ir-service.rc
-odm/etc/permissions/android.hardware.consumerir.xml
-odm/etc/vintf/manifest/android.hardware.ir-service.xml
-vendor/lib64/hw/consumerir.default.so
-
 # NFC
 odm/etc/nfc/libnfc-mtp-SN220.conf_23861:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_23861:vendor/etc/libnfc-nci.conf
