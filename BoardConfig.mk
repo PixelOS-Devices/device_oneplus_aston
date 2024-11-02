@@ -43,5 +43,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
+# Touch
+TARGET_USES_OPLUS_TOUCH := true
+
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/aston/BoardConfigVendor.mk
