@@ -45,4 +45,4 @@ $(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
 $(call inherit-product, device/oneplus/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/salami/salami-vendor.mk)
+$(call inherit-product, vendor/oneplus/aston/aston-vendor.mk)
