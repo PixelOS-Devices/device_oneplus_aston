@@ -1272,6 +1272,10 @@ odm/firmware/pxlw_i7p_panel_AA551_P_3_A0004_dsc_cmd.fw
 vendor/etc/display/qdcm_calib_data_AA551_P_3_A0004_dsc_cmd_mode_panel.json
 vendor/etc/ltm_config_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
 
+# eUICC - CPH2611_15.0.0.801(EX01)
+my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml|f2c044ab8db11f299b106375dbd06feef4ff84e0
+my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|e08fc712975d0c4baed73a2a09f1244ef67179fb
+
 # NFC
 odm/etc/nfc/libnfc-mtp-SN220.conf_23861:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_23861:vendor/etc/libnfc-nci.conf
